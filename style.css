@@ -87,3 +87,38 @@ footer {
   padding: 20px 10px;
   font-size: 14px;
 }
+
+.trainer {
+  background-color: #f0f0f0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.trainer-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.trainer-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px;
+  border: 3px solid #0077cc;
+}
+
+.trainer-text {
+  max-width: 500px;
+  padding: 20px;
+  text-align: left;
+}
+
+.trainer-text h3 {
+  margin-top: 0;
+  color: #0077cc;
+}
